@@ -454,7 +454,7 @@ def lookupFor(typeCode):
     """
     # XXX: use typeCode.upper()? in case of any decign don't
     # forget to look to the same comment in ``registerField``
-    return _fieldsRegistry[chr(typeCode)]
+    return _fieldsRegistry[typeCode]
 
 ## register generic types
 
